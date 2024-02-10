@@ -1,0 +1,20 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: SLS-Test
+version: "2.0.0"
+slug: SLS-Test
+description: Smat Level Sensor
+url: "https://github.com/QusaiAlhakeam/SLS-Test/tree/main/example"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+#image: "ghcr.io/home-assistant/{arch}-addon-example"
