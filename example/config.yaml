@@ -3,7 +3,7 @@ name: SLS-Test
 version: "2.0.0"
 slug: SLS-Test
 description: Smat Level Sensor
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+url: "https://github.com/QusaiAlhakeam/SLS-Test/tree/main/example"
 arch:
   - armhf
   - armv7
