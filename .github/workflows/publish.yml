@@ -12,7 +12,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push the Docker image
-        run: |
-          docker build . --tag ghcr.io/home-assistant/amd64-addon-example:latest
+        run: docker build . --tag ghcr.io/home-assistant/amd64-addon-example:latest
+      - name: Run the Docker image
           docker run ghcr.io/home-assistant/amd64-addon-example:latest
+      - name: Push the Docker image
           docker push ghcr.io/home-assistant/amd64-addon-example:latest
