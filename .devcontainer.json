@@ -11,7 +11,7 @@
     "GIT_EDITOR=code --wait",
     "--privileged"
   ],
-  "remoteUser": "root",
+  //"remoteUser": "root",
   "containerEnv": {
     "WORKSPACE_DIRECTORY": "${containerWorkspaceFolder}"
   },
